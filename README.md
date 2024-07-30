@@ -1,2 +1,6 @@
 # Tokyo-Olympics-Data-Insights-using-Azure
 ![Architecture](https://github.com/user-attachments/assets/5f0b1983-d1c9-4f40-a074-ed1214eb0285)
+
+This project undertakes a comprehensive data engineering and analytical journey on the Tokyo Olympics dataset. It begins with data ingestion from a CSV file on GitHub into the Azure ecosystem using Azure Data Factory. The data is initially stored in Azure Data Lake Storage Gen2 and then transformed in Azure Databricks. Post-transformation, the data is stored back in ADLS Gen2 and undergoes advanced analytics in Azure Synapse. The insights derived are visualized using Azure Synapse and Power BI, providing an in-depth dataset view.
+
+The dataset used comprises details of over 11,000 athletes, including their names, countries, disciplines, and the coaches' details. This project utilizes various Azure services, including Azure Data Factory for data ingestion, Azure Data Lake Storage Gen2 for primary data storage, Azure Databricks for data transformation, and Azure Synapse Analytics for in-depth data analysis. The entire workflow is designed to offer a seamless data engineering and analytics experience, from initial setup to data ingestion, transformation, and visualization.
